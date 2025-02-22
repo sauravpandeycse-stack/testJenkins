@@ -49,6 +49,19 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<!--<plugin>
+				<groupId>com.codacy</groupId>
+				<artifactId>codacy-maven-plugin</artifactId>
+				<version>3.0.0</version>  Replace with the latest available 
+				<executions>
+					<execution>
+						<phase>verify</phase>
+						<goals>
+							<goal>report</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>-->
 		</plugins>
 
 	</build>
