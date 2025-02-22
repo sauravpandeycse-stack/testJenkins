@@ -53,11 +53,25 @@
 
 	</build>
 	<repositories>
+		<!-- Maven Central for standard dependencies -->
+		<repository>
+			<id>central</id>
+			<url>https://repo.maven.apache.org/maven2</url>
+		</repository>
+
+		<!-- Codacy only for the plugin -->
 		<repository>
 			<id>codacy-maven-repo</id>
 			<url>https://maven.codacy.com/repository/maven-public/</url>
 		</repository>
 	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>codacy-maven-repo</id>
+			<url>https://maven.codacy.com/repository/maven-public/</url>
+		</pluginRepository>
+	</pluginRepositories>
 
 
 </project>
